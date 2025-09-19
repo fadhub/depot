@@ -1,0 +1,54 @@
+{
+    "name": "solicode/depot",
+    "description": "Une calculatrice simple en PHP\" ou \"Dépôt de projet PHP",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Solicode\\Depot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fadna"
+        }
+        {
+    "name": "solicode/calculatrice",
+    "description": "Une calculatrice simple en PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Votre Nom",
+            "email": "votre.email@example.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.7",
+        "friendsofphp/php-cs-fixer": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "dev": "php -S localhost:8000 -t public",
+        "build": "echo 'Construction du projet...' && composer install --no-dev --optimize-autoloader",
+        "test": "phpunit --configuration phpunit.xml",
+        "lint": "phpcs --standard=PSR12 src",
+        "format": "php-cs-fixer fix src"
+    }
+}
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^12.3",
+        "squizlabs/php_codesniffer": "^4.0",
+        "friendsofphp/php-cs-fixer": "^3.87"
+    }
+    
+}
+
